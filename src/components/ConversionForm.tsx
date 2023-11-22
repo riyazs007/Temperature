@@ -50,15 +50,11 @@ export default function ConversionForm() {
     return (
         <Paper>
             <Grid container spacing={2}>
-                <Grid item xs={8}>
-                    
-                    <UnitSelect  points={points} selected={from} onUnitChange={handleFromChange} onInputChange={handleInputChange} data={result2}></UnitSelect>
-                   
+                <Grid item xs={8}>                    
+                    <UnitSelect  points={points} selected={from} onUnitChange={handleFromChange} onInputChange={handleInputChange} data={result2}></UnitSelect>                   
                 </Grid>
-                <Grid item xs={8}>
-                   
-                        <UnitSelect points={points} selected={to} onUnitChange={handleToChange} onInputChange={handleInputsChange} data={result1}></UnitSelect>
-                    
+                <Grid item xs={8}>                   
+                        <UnitSelect points={points} selected={to} onUnitChange={handleToChange} onInputChange={handleInputsChange} data={result1}></UnitSelect>                    
                 </Grid>
                
             </Grid>
