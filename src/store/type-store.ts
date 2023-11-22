@@ -1,4 +1,4 @@
-import { UnitPoint } from "../types"; //Amount, CityType, 
+import { UnitPoint } from "../types"; 
 import { TaskType } from "../types";
 // const BASIC_FARE = Amount.INR(10);
 
